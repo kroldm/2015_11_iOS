@@ -37,7 +37,14 @@ func myFunc(x:Int, y:Int)->Int{
     print("in my func \(x + y)")
     return x + y
 }
-
 let res = myFunc(8, y: 2)
 print(res)
+
+func myFunc1(x:Int, y:Int)->(Int, Int){
+    let plus:Int = x + y
+    let minus:Int = x - y
+    return (plus,minus)
+}
+let (plus,minus) = myFunc1(8, y: 2)
+print("plus = \(plus), minus = \(minus)")
 
