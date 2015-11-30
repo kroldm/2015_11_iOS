@@ -49,7 +49,7 @@ for (key, value) in myDictionary{
     print("key:\(key) value:\(value)")
 }
 
-
+var arr = [6,7,5,3]
 
 
 
