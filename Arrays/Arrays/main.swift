@@ -51,6 +51,7 @@ for (key, value) in myDictionary{
 
 var arr = [6,7,5,3]
 
+var arr10:[[Int]] = [[Int]]()
 
 
 
