@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D6ADFFA1C2C5B9800260DA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6ADFF91C2C5B9800260DA9 /* AppDelegate.swift */; };
+		6D6ADFFC1C2C5B9800260DA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6ADFFB1C2C5B9800260DA9 /* ViewController.swift */; };
+		6D6ADFFF1C2C5B9800260DA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D6ADFFD1C2C5B9800260DA9 /* Main.storyboard */; };
+		6D6AE0011C2C5B9800260DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D6AE0001C2C5B9800260DA9 /* Assets.xcassets */; };
+		6D6AE0041C2C5B9800260DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D6AE0021C2C5B9800260DA9 /* LaunchScreen.storyboard */; };
+		6D6AE00F1C2C5B9800260DA9 /* Targil_TextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6AE00E1C2C5B9800260DA9 /* Targil_TextFieldTests.swift */; };
+		6D6AE01A1C2C5B9800260DA9 /* Targil_TextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6AE0191C2C5B9800260DA9 /* Targil_TextFieldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D6AE00B1C2C5B9800260DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D6ADFEE1C2C5B9800260DA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D6ADFF51C2C5B9800260DA9;
+			remoteInfo = "Targil TextField";
+		};
+		6D6AE0161C2C5B9800260DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D6ADFEE1C2C5B9800260DA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D6ADFF51C2C5B9800260DA9;
+			remoteInfo = "Targil TextField";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D6ADFF61C2C5B9800260DA9 /* Targil TextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Targil TextField.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D6ADFF91C2C5B9800260DA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D6ADFFB1C2C5B9800260DA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D6ADFFE1C2C5B9800260DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D6AE0001C2C5B9800260DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D6AE0031C2C5B9800260DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D6AE0051C2C5B9800260DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D6AE00A1C2C5B9800260DA9 /* Targil TextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Targil TextFieldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D6AE00E1C2C5B9800260DA9 /* Targil_TextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Targil_TextFieldTests.swift; sourceTree = "<group>"; };
+		6D6AE0101C2C5B9800260DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D6AE0151C2C5B9800260DA9 /* Targil TextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Targil TextFieldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D6AE0191C2C5B9800260DA9 /* Targil_TextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Targil_TextFieldUITests.swift; sourceTree = "<group>"; };
+		6D6AE01B1C2C5B9800260DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D6ADFF31C2C5B9800260DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D6AE0071C2C5B9800260DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D6AE0121C2C5B9800260DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D6ADFED1C2C5B9800260DA9 = {
+			isa = PBXGroup;
+			children = (
+				6D6ADFF81C2C5B9800260DA9 /* Targil TextField */,
+				6D6AE00D1C2C5B9800260DA9 /* Targil TextFieldTests */,
+				6D6AE0181C2C5B9800260DA9 /* Targil TextFieldUITests */,
+				6D6ADFF71C2C5B9800260DA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D6ADFF71C2C5B9800260DA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D6ADFF61C2C5B9800260DA9 /* Targil TextField.app */,
+				6D6AE00A1C2C5B9800260DA9 /* Targil TextFieldTests.xctest */,
+				6D6AE0151C2C5B9800260DA9 /* Targil TextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D6ADFF81C2C5B9800260DA9 /* Targil TextField */ = {
+			isa = PBXGroup;
+			children = (
+				6D6ADFF91C2C5B9800260DA9 /* AppDelegate.swift */,
+				6D6ADFFB1C2C5B9800260DA9 /* ViewController.swift */,
+				6D6ADFFD1C2C5B9800260DA9 /* Main.storyboard */,
+				6D6AE0001C2C5B9800260DA9 /* Assets.xcassets */,
+				6D6AE0021C2C5B9800260DA9 /* LaunchScreen.storyboard */,
+				6D6AE0051C2C5B9800260DA9 /* Info.plist */,
+			);
+			path = "Targil TextField";
+			sourceTree = "<group>";
+		};
+		6D6AE00D1C2C5B9800260DA9 /* Targil TextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D6AE00E1C2C5B9800260DA9 /* Targil_TextFieldTests.swift */,
+				6D6AE0101C2C5B9800260DA9 /* Info.plist */,
+			);
+			path = "Targil TextFieldTests";
+			sourceTree = "<group>";
+		};
+		6D6AE0181C2C5B9800260DA9 /* Targil TextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D6AE0191C2C5B9800260DA9 /* Targil_TextFieldUITests.swift */,
+				6D6AE01B1C2C5B9800260DA9 /* Info.plist */,
+			);
+			path = "Targil TextFieldUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D6ADFF51C2C5B9800260DA9 /* Targil TextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D6AE01E1C2C5B9800260DA9 /* Build configuration list for PBXNativeTarget "Targil TextField" */;
+			buildPhases = (
+				6D6ADFF21C2C5B9800260DA9 /* Sources */,
+				6D6ADFF31C2C5B9800260DA9 /* Frameworks */,
+				6D6ADFF41C2C5B9800260DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Targil TextField";
+			productName = "Targil TextField";
+			productReference = 6D6ADFF61C2C5B9800260DA9 /* Targil TextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D6AE0091C2C5B9800260DA9 /* Targil TextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D6AE0211C2C5B9800260DA9 /* Build configuration list for PBXNativeTarget "Targil TextFieldTests" */;
+			buildPhases = (
+				6D6AE0061C2C5B9800260DA9 /* Sources */,
+				6D6AE0071C2C5B9800260DA9 /* Frameworks */,
+				6D6AE0081C2C5B9800260DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D6AE00C1C2C5B9800260DA9 /* PBXTargetDependency */,
+			);
+			name = "Targil TextFieldTests";
+			productName = "Targil TextFieldTests";
+			productReference = 6D6AE00A1C2C5B9800260DA9 /* Targil TextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D6AE0141C2C5B9800260DA9 /* Targil TextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D6AE0241C2C5B9800260DA9 /* Build configuration list for PBXNativeTarget "Targil TextFieldUITests" */;
+			buildPhases = (
+				6D6AE0111C2C5B9800260DA9 /* Sources */,
+				6D6AE0121C2C5B9800260DA9 /* Frameworks */,
+				6D6AE0131C2C5B9800260DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D6AE0171C2C5B9800260DA9 /* PBXTargetDependency */,
+			);
+			name = "Targil TextFieldUITests";
+			productName = "Targil TextFieldUITests";
+			productReference = 6D6AE0151C2C5B9800260DA9 /* Targil TextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D6ADFEE1C2C5B9800260DA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = HackerU;
+				TargetAttributes = {
+					6D6ADFF51C2C5B9800260DA9 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					6D6AE0091C2C5B9800260DA9 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6D6ADFF51C2C5B9800260DA9;
+					};
+					6D6AE0141C2C5B9800260DA9 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6D6ADFF51C2C5B9800260DA9;
+					};
+				};
+			};
+			buildConfigurationList = 6D6ADFF11C2C5B9800260DA9 /* Build configuration list for PBXProject "Targil TextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D6ADFED1C2C5B9800260DA9;
+			productRefGroup = 6D6ADFF71C2C5B9800260DA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D6ADFF51C2C5B9800260DA9 /* Targil TextField */,
+				6D6AE0091C2C5B9800260DA9 /* Targil TextFieldTests */,
+				6D6AE0141C2C5B9800260DA9 /* Targil TextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D6ADFF41C2C5B9800260DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6AE0041C2C5B9800260DA9 /* LaunchScreen.storyboard in Resources */,
+				6D6AE0011C2C5B9800260DA9 /* Assets.xcassets in Resources */,
+				6D6ADFFF1C2C5B9800260DA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D6AE0081C2C5B9800260DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D6AE0131C2C5B9800260DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D6ADFF21C2C5B9800260DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6ADFFC1C2C5B9800260DA9 /* ViewController.swift in Sources */,
+				6D6ADFFA1C2C5B9800260DA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D6AE0061C2C5B9800260DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6AE00F1C2C5B9800260DA9 /* Targil_TextFieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D6AE0111C2C5B9800260DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6AE01A1C2C5B9800260DA9 /* Targil_TextFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D6AE00C1C2C5B9800260DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D6ADFF51C2C5B9800260DA9 /* Targil TextField */;
+			targetProxy = 6D6AE00B1C2C5B9800260DA9 /* PBXContainerItemProxy */;
+		};
+		6D6AE0171C2C5B9800260DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D6ADFF51C2C5B9800260DA9 /* Targil TextField */;
+			targetProxy = 6D6AE0161C2C5B9800260DA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D6ADFFD1C2C5B9800260DA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D6ADFFE1C2C5B9800260DA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D6AE0021C2C5B9800260DA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D6AE0031C2C5B9800260DA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D6AE01C1C2C5B9800260DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D6AE01D1C2C5B9800260DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D6AE01F1C2C5B9800260DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Targil TextField/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyh.Targil-TextField";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D6AE0201C2C5B9800260DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Targil TextField/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyh.Targil-TextField";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D6AE0221C2C5B9800260DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Targil TextFieldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyh.Targil-TextFieldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Targil TextField.app/Targil TextField";
+			};
+			name = Debug;
+		};
+		6D6AE0231C2C5B9800260DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Targil TextFieldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyh.Targil-TextFieldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Targil TextField.app/Targil TextField";
+			};
+			name = Release;
+		};
+		6D6AE0251C2C5B9800260DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Targil TextFieldUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyh.Targil-TextFieldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Targil TextField";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6D6AE0261C2C5B9800260DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Targil TextFieldUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyh.Targil-TextFieldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Targil TextField";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D6ADFF11C2C5B9800260DA9 /* Build configuration list for PBXProject "Targil TextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D6AE01C1C2C5B9800260DA9 /* Debug */,
+				6D6AE01D1C2C5B9800260DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D6AE01E1C2C5B9800260DA9 /* Build configuration list for PBXNativeTarget "Targil TextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D6AE01F1C2C5B9800260DA9 /* Debug */,
+				6D6AE0201C2C5B9800260DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D6AE0211C2C5B9800260DA9 /* Build configuration list for PBXNativeTarget "Targil TextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D6AE0221C2C5B9800260DA9 /* Debug */,
+				6D6AE0231C2C5B9800260DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D6AE0241C2C5B9800260DA9 /* Build configuration list for PBXNativeTarget "Targil TextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D6AE0251C2C5B9800260DA9 /* Debug */,
+				6D6AE0261C2C5B9800260DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D6ADFEE1C2C5B9800260DA9 /* Project object */;
+}
