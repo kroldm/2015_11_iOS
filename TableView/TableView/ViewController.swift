@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     var tableView:UITableView?
     let cellIdentifier = "identifier"
@@ -23,6 +23,14 @@ class ViewController: UIViewController, UITableViewDataSource {
             //theTableView.autoresizingMask = .FlexibleHeight
             view.addSubview(theTableView)
         }
+    }
+    
+    func tableView(tableView: UITableView, editingStyleForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCellEditingStyle {
+        return .Delete
+    }
+    
+    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Left)
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
