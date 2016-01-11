@@ -12,6 +12,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     var tableView:UITableView?
     let cellIdentifier = "identifier"
+    var refreshControl:UIRefreshControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +22,18 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             theTableView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: cellIdentifier)
             theTableView.dataSource = self
             //theTableView.autoresizingMask = .FlexibleHeight
+            refreshControl = UIRefreshControl()
+            refreshControl.addTarget(self, action: "handleRefresh:", forControlEvents: .ValueChanged)
+            theTableView.addSubview(refreshControl)
             view.addSubview(theTableView)
+        }
+    }
+    
+    func handleRefresh(sender:UIRefreshControl){
+        print("in refresh")
+        let popTime = dispatch_time(DISPATCH_TIME_NOW, 3 * Int64(NSEC_PER_SEC))
+        dispatch_after(popTime, dispatch_get_main_queue()) { [weak self]() -> Void in
+            self!.refreshControl.endRefreshing()
         }
     }
     
