@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController, NSURLSessionDelegate, NSURLSessionDataDelegate {
 
     var session: NSURLSession!
+    var response = NSMutableData()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,10 +31,17 @@ class ViewController: UIViewController, NSURLSessionDelegate, NSURLSessionDataDe
             }
             self!.session.finishTasksAndInvalidate()
         }
+        //let task = session.dataTaskWithURL(url!)    //work mode with delegates
         task.resume()
     }
     
-    
+    func URLSession(session: NSURLSession, dataTask: NSURLSessionDataTask, didReceiveData data: NSData) {
+        print("did recieved")
+        response.appendData(data)
+    }
+    func URLSession(session: NSURLSession, task: NSURLSessionTask, didCompleteWithError error: NSError?) {
+        print("completed")
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
