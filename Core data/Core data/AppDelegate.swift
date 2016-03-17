@@ -38,11 +38,40 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func pullDataFromDatabase(){
         let fetchRequest = NSFetchRequest(entityName: entityName)
+        fetchRequest.predicate = NSPredicate(format: "age > %@", 100)
+        fetchRequest.sortDescriptors = [NSSortDescriptor(key: "age", ascending: true), NSSortDescriptor(key: "firstName", ascending: true)]
         do{
             let persons = try managedObjectContext.executeFetchRequest(fetchRequest) as! [Person]
             for person in persons{
                 print(person.age)
             }
+        }catch{
+            print("error")
+        }
+    }
+    
+    func batchUpdate(){
+        let batch = NSBatchUpdateRequest(entityName: entityName)
+        batch.propertiesToUpdate = ["age" : 18]
+        batch.predicate = NSPredicate(format: "age < %@", 18)
+        batch.resultType = .UpdatedObjectsCountResultType
+        do{
+            let result = try managedObjectContext.executeRequest(batch) as! NSBatchUpdateResult
+            print("num persons updated \(result.result as! Int)")
+        }catch{
+            print("error")
+        }
+    }
+    
+    func deleteFromDatabase(){
+        let fetchRequest = NSFetchRequest(entityName: entityName)
+        fetchRequest.predicate = NSPredicate(format: "age > %@", 100)
+        do{
+            let persons = try managedObjectContext.executeFetchRequest(fetchRequest) as! [Person]
+            for person in persons{
+                managedObjectContext.deleteObject(person)
+            }
+            try managedObjectContext.save()
         }catch{
             print("error")
         }
