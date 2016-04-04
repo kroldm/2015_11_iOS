@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StoryBoard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hello world" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qBi-XH-hjz">
+                                <rect key="frame" x="252" y="51" width="96" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter text..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XDy-bH-GTm">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="153" y="96" width="96" height="30"/>
+                                </variation>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZA-Qe-yy1">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Click me"/>
+                                <connections>
+                                    <action selector="handleClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="twB-RR-HoU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qBi-XH-hjz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="50" id="EFY-vd-SSf"/>
+                            <constraint firstItem="DZA-Qe-yy1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="150" id="GmQ-YC-gnj"/>
+                            <constraint firstItem="XDy-bH-GTm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IOv-zj-uT7"/>
+                            <constraint firstItem="XDy-bH-GTm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="100" id="LjT-qI-fsu">
+                                <variation key="widthClass=compact" constant="96"/>
+                            </constraint>
+                            <constraint firstItem="qBi-XH-hjz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tsx-3U-Bdr"/>
+                            <constraint firstItem="DZA-Qe-yy1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V4E-OL-wQ4"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="XDy-bH-GTm"/>
+                                <exclude reference="DZA-Qe-yy1"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="EFY-vd-SSf"/>
+                                <exclude reference="Tsx-3U-Bdr"/>
+                                <exclude reference="GmQ-YC-gnj"/>
+                                <exclude reference="V4E-OL-wQ4"/>
+                                <exclude reference="IOv-zj-uT7"/>
+                                <exclude reference="LjT-qI-fsu"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="XDy-bH-GTm"/>
+                                <include reference="DZA-Qe-yy1"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="EFY-vd-SSf"/>
+                                <include reference="Tsx-3U-Bdr"/>
+                                <include reference="GmQ-YC-gnj"/>
+                                <include reference="V4E-OL-wQ4"/>
+                                <include reference="IOv-zj-uT7"/>
+                                <include reference="LjT-qI-fsu"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="qBi-XH-hjz" id="vi6-1n-0Cb"/>
+                        <outlet property="textField" destination="XDy-bH-GTm" id="t7Q-pH-tUc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="288" y="291"/>
+        </scene>
+    </scenes>
+</document>
