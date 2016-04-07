@@ -7,52 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface Dog:NSObject
-
--(void)bark;
--(void)setAge:(int)age;
--(void)setWeight:(double)weight;
-
--(int)age;
--(double)weight;
-
-@end
-
-@implementation Dog
-{
-    int age;
-    double weight;
-    NSString *name;
-}
--(void)bark
-{
-    NSLog(@"waf waf %@",name);
-}
--(void)setAge:(int)a
-{
-    age = a;
-}
--(void)setWeight:(double)w
-{
-    weight = w;
-}
--(int)age
-{
-    return age;
-}
--(double)weight
-{
-    return weight;
-}
--(void)setName:(NSString*)n
-{
-    name = n;
-}
-
-@end
-
-
+#import "Dog.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
